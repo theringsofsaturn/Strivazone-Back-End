@@ -10,7 +10,7 @@ import cors from "cors";
 // ************************ CORS **********************
 
 const whitelist = [process.env.FE_LOCAL_URL, process.env.FE_PROD_URL]
-const corsOpts = {
+const corsOptions = {
   origin: function (origin, next) {
     // Since CORS is a global middleware, it is going to be executed for each and every request --> we are able to "detect" the origin of each and every req from this function
     console.log("CURRENT ORIGIN: ", origin)
@@ -26,7 +26,7 @@ const corsOpts = {
 
 const server = express();
 
-server.use(cors(corsOpts)); // You need this if you want to make the FE communicate with BE
+server.use(cors(corsOptions)); // You need this if you want to make the FE communicate with BE
 server.use(express.json()) // If I do NOT specify this line BEFORE the endpoints, all the requests' bodies will be UNDEFINED
 
 
