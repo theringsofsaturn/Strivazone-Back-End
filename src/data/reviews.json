@@ -1,0 +1,38 @@
+[
+  {
+    "comment": "A good book but definitely I don't like many parts of the plot",
+    "rate": 3,
+    "productId": "5d318e1a8541744830bef139",
+    "id": "hfng64yskv6lav7o",
+    "createdAt": "2021-10-25T11:41:50.339Z"
+  },
+  {
+    "comment": "A good book but definitely ",
+    "rate": 5,
+    "productId": "5d318e1a8541744830bef139",
+    "id": "hfng64yskv6lcebo",
+    "createdAt": "2021-10-25T11:43:01.764Z",
+    "updatedAt": "2021-10-25T11:45:26.813Z"
+  },
+  {
+    "comment": "A good book but definitely ",
+    "rate": 5,
+    "productId": "3dv7jdd9gkv6hro1g",
+    "id": "hfng62l0kv6mbcy5",
+    "createdAt": "2021-10-25T12:10:12.940Z"
+  },
+  {
+    "comment": "handy ",
+    "rate": 4,
+    "productId": "3dv7jdd9gkv6hro1g",
+    "id": "hfng62l0kv6mbzw6",
+    "createdAt": "2021-10-25T12:10:42.678Z"
+  },
+  {
+    "comment": "very nice phone ",
+    "rate": 4.5,
+    "productId": "3dv7jdd9gkv6hro1g",
+    "id": "hfng62l0kv6mgdhl",
+    "createdAt": "2021-10-25T12:14:06.921Z"
+  }
+]
